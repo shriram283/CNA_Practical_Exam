@@ -12,7 +12,7 @@ phases:
   post_build:
     commands:
       - echo Uploading the ZIP file to S3...
-      - aws s3 cp repository.zip s3://cal-app-bucket/repository.zip
+      - aws s3 cp repository.zip s3://cndexambucket12/repository.zip
 artifacts:
   files:
     - '**/*'
